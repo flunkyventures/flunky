@@ -53,7 +53,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          © 2025, Flunky Ventures
+          © 2025, Flunky Ventures, all rights reserved
         </a>
       </footer>
     </div>
