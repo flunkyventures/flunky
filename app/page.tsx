@@ -1,5 +1,4 @@
 import { NavbarDemo } from "@/components/Navbar";
-import { Hero } from "@/components/Hero";
 import Image from "next/image";
 import Footer from "@/components/Footer";
 

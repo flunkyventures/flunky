@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
 import Hero from "./Hero";
-import Timeline, { TimelineDemo } from "./Timeline";
+import { TimelineDemo } from "./Timeline";
 
 
 export function NavbarDemo() {

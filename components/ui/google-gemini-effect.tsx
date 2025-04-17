@@ -2,7 +2,6 @@
 import { cn } from "@/lib/utils";
 import { motion, MotionValue } from "motion/react";
 import React from "react";
-import { BackgroundLines } from "@/components/ui/background-lines";
 
 const transition = {
   duration: 0,
