@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Label } from "./ui/label";
-import { Input, TextArea } from "./ui/input";
+import { Input } from "./ui/input";
 import { cn } from "@/lib/utils";
 
 export function SignupFormDemo() {
