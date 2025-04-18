@@ -131,18 +131,9 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-/* Default light theme */
-html.light {
-  --bg: #ffffff;
-  --text: #000000;
-  background: var(--bg);
-  color: var(--text);
-}
-
-/* Dark theme */
-html.dark {
-  --bg: #000000;
-  --text: #ffffff;
-  background: var(--bg);
-  color: var(--text);
+@theme inline {
+  --shadow-input:
+    0px 2px 3px -1px rgba(0, 0, 0, 0.1),
+    0px 1px 0px 0px rgba(25, 28, 33, 0.02),
+    0px 0px 0px 1px rgba(25, 28, 33, 0.08);
 }
