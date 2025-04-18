@@ -13,6 +13,7 @@ import {
 import { useState } from "react";
 import Hero from "./Hero";
 import { TimelineDemo } from "./Timeline";
+import SignupFormDemo from "./Form";
 
 
 export function NavbarDemo() {
@@ -34,7 +35,7 @@ export function NavbarDemo() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full bg-white dark:bg-neutral-950">
       <Navbar>
         {/* Desktop Navigation */}
         <NavBody>
@@ -92,6 +93,7 @@ export function NavbarDemo() {
       </Navbar>
       <Hero />
       <TimelineDemo />
+      <SignupFormDemo />
 
       {/* Navbar */}
     </div>

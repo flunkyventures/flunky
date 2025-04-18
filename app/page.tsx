@@ -11,11 +11,6 @@ export default function Home() {
       
       {/* Content container - starts right after navbar */}
       <div className="flex flex-col flex-1">
-        {/* Hero section */}
-        <section className="w-full">
-          {/*<Hero />*/}
-        </section>
-        
         <Footer />
       </div>
     </div>
